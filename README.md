@@ -197,7 +197,7 @@ AA 55 | LEN | TYPE | SEQ | PAYLOAD | CRC8
 
 ## 7. 演示视频脚本（约 60 秒）
 
-直接双击 `pc\录制演示.bat`（或 `python tools/record_window.py --duration 60 --output demo.mp4`），会录制 `Vision-Link` 窗口的完整画面（含检测框/FPS），录完在 `pc\demo.mp4`。
+直接双击 `pc\record_demo.bat`（或 `python tools/record_window.py --duration 60 --output demo.mp4`），会录制 `Vision-Link` 窗口的完整画面（含检测框/FPS），录完在 `pc\demo.mp4`。
 
 1. **0–10s**：镜头拍桌面，相机对着手/水杯/手机移动，PC 屏幕显示检测框；
 2. **10–25s**：串口监视器窗口，展示 `AA 55 ...` 原始帧滚动；
