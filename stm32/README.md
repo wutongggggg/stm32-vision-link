@@ -155,7 +155,7 @@ void VisionLink_OnDetection(const proto_det_t *det)
 
 串口 ISP 步骤：USB 线插 **核心板 MicroUSB** → 确认 ASP 黄灯常亮（暗光就双击 MODE 开启）→ FlyMcu 选 COM 口、115200、下载 `build_out/firmware.hex` → 完成后自动复位运行。
 
-> 强烈建议花 20 块买个 ST-Link：调协议时能打断点看 `s_frame`、`s_rb`，效率差好几倍。
+> 建议使用 ST-Link V2：调试时可查看 `s_frame`、`s_rb` 等变量，便于定位协议问题。
 
 ## 5. 自测顺序
 
