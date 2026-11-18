@@ -10,7 +10,7 @@
 
 [![Vision-Link 演示](docs/demo_frame.png)](docs/demo.mp4)
 
-[▶ 观看 36 秒演示视频（1280×720 / H.264）](docs/demo.mp4)
+[▶ 观看 30 秒演示视频（1280×720 / H.264，无片头片尾）](docs/demo.mp4)
 
 ---
 
