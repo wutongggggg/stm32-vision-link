@@ -1,0 +1,18 @@
+{
+    "folders": [
+        {
+            "name": "PC (Python)",
+            "path": "pc"
+        },
+        {
+            "name": "STM32 (Firmware)",
+            "path": "stm32"
+        }
+    ],
+    "settings": {
+        "platformio-ide.useBuiltinPIOCore": true,
+        "platformio-ide.useBuiltinPython": false,
+        "platformio-ide.customPATH": "D:\\Documents\\deepseek-harness\\default-workspace\\.tools\\pio-core\\penv\\Scripts",
+        "platformio-ide.customPyPiIndexUrl": "https://pypi.tuna.tsinghua.edu.cn/simple"
+    }
+}

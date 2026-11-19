@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Models / runs
+*.pt
+runs/
+pc/models/
+pc/demo.mp4
+pc/demo_edited.mp4
+
+# STM32 / Keil / PlatformIO
+stm32/.pio/
+stm32/build_out/
+stm32/compile_commands.json
+stm32/MDK-ARM/Objects/
+stm32/MDK-ARM/Listings/
+stm32/MDK-ARM/DebugConfig/
+*.uvguix.*
+*.uvoptx
+*.bak
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Ultralytics 自动生成的配置目录
+pc/Ultralytics/
+
+pc/demo_nocards.mp4

@@ -1,0 +1,12 @@
+opencv-python>=4.8
+numpy>=1.24
+pyserial>=3.5
+PyYAML>=6.0
+pygrabber>=0.2      # 枚举 DirectShow 摄像头名称（Windows）
+
+# 录演示视频（可选）
+mss>=10.0
+pygetwindow>=0.0.9
+
+# Optional: YOLOv8 detector (also installs PyTorch, several hundred MB)
+# ultralytics>=8.1

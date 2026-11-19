@@ -1,0 +1,61 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "PlatformIO: Build",
+            "type": "shell",
+            "command": "D:\\Documents\\deepseek-harness\\default-workspace\\.tools\\pio-core\\penv\\Scripts\\platformio.exe",
+            "args": [
+                "run"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PLATFORMIO_CORE_DIR": "D:\\Documents\\deepseek-harness\\default-workspace\\.tools\\pio-core"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "PlatformIO: Upload (BOOT0=1)",
+            "type": "shell",
+            "command": "D:\\Documents\\deepseek-harness\\default-workspace\\.tools\\pio-core\\penv\\Scripts\\platformio.exe",
+            "args": [
+                "run",
+                "-t",
+                "upload"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PLATFORMIO_CORE_DIR": "D:\\Documents\\deepseek-harness\\default-workspace\\.tools\\pio-core"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "PlatformIO: Serial Monitor",
+            "type": "shell",
+            "command": "D:\\Documents\\deepseek-harness\\default-workspace\\.tools\\pio-core\\penv\\Scripts\\platformio.exe",
+            "args": [
+                "device",
+                "monitor",
+                "-b",
+                "115200"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PLATFORMIO_CORE_DIR": "D:\\Documents\\deepseek-harness\\default-workspace\\.tools\\pio-core"
+                }
+            },
+            "problemMatcher": []
+        }
+    ]
+}
